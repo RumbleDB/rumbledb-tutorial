@@ -2,7 +2,16 @@
 
 ## What is RumbleDB?
 
-RumbleDB
+RumbleDB is an engine that allows you to query large, messy datasets with JSONiq.
+
+It works on your laptop, smartly spreading computations on all your cores (by encapsulating Apache Spark in a way that is hidden from the user), but also works on a large cluster of machines (3, or 5, or 10, or 50, or 100, or 1000...) in the cloud.
+
+On your laptop, it works with very small files in kB, all the way to 100s of GBs.
+On a cluster, it works with very small files in kB, all the way to 100s of TBs.
+
+It supports JSON, CSV, Parquet, Avro, ...
+
+In this tutorial, we will simply work with your laptop.
 
 ## Installation notes
 
