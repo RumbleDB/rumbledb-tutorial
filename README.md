@@ -180,3 +180,12 @@ This should return a sequence of 100 objects, looking like this (also possibly w
     { "foo" : 7 }
     { "foo" : 8 }
     ...
+
+Next, you can check that RumbleDB manages to read files from the Web:
+
+    java -jar rumbledb-1.19.0-standalone.jar run -q 'json-file("https://www.rumbledb.org/download/movies.jsonl")[1]'
+
+And finally, you can download the actual dataset from [this place](https://www.rumbledb.org/download/movies.jsonl) to your directory (the same where you have the RumbleDB jar) and execute
+
+    java -jar rumbledb-1.19.0-standalone.jar run -q 'json-file("movies.jsonl")[1]'
+    
