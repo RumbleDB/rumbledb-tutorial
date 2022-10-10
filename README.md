@@ -33,3 +33,81 @@ which should display something like this (what is important is the 11, and not 8
 In case a different version is displayed, you need to point JAVA_HOME to the right directory. For macOS, you can run:
 
     export JAVA_HOME=`/usr/libexec/java_home -v 11` 
+
+And then run
+
+    java -version
+    
+again to check that this worked.
+
+## Download the RumbleDB jar
+
+The RumbleDB jar can directly be downloaded from [this place](https://github.com/RumbleDB/rumble/releases/download/v1.19.0/rumbledb-1.19.0-standalone.jar).
+
+Just put it in a directory of your choice, specially created for the tutorial. In this directory, we will also put datasets and a jupyter notebook.
+
+To check that it works, open a command window, go to the directory, and try to run the following command:
+
+    java -jar rumbledb-1.19.0-standalone.jar
+    
+which should do nothing else than display get-started instructions:
+
+        ____                  __    __     ____  ____ 
+       / __ \__  ______ ___  / /_  / /__  / __ \/ __ )
+      / /_/ / / / / __ `__ \/ __ \/ / _ \/ / / / __  |  The distributed JSONiq engine
+     / _, _/ /_/ / / / / / / /_/ / /  __/ /_/ / /_/ /   1.19.0 "Tipuana Tipu" beta
+    /_/ |_|\__,_/_/ /_/ /_/_.___/_/\___/_____/_____/  
+    
+    
+    
+    RumbleDB is a JSONiq engine that can be used both on your laptop or on a
+    cluster (e.g. with Amazon EMR or Azure HDInsight).
+    
+    This is the standalone jar that does not require the installation of Spark.
+    
+    If you need more control over Spark or use it on a cluster, we recommend using
+    the leaner jars instead, which you can download from www.rumbledb.org.
+    
+    If you do not want to install Spark, then you need to use the standalone jar
+    instead from www.rumbledb.org.
+    
+    Usage:
+    jar -jar <path to RumbleDB's jar> <mode> <parameters>
+    
+    The first optional argument specifies the mode:
+    **** run ****
+    for directly running a query from an input file or (with -q) provided directly on the command line.
+    
+    It is the default mode.
+    
+    jar -jar rumbledb-1.19.0.jar run my-query.jq
+    jar -jar rumbledb-1.19.0.jar run -q '1+1'
+
+    You can specify an output path with -o like so:
+    jar -jar rumbledb-1.19.0.jar run -q '1+1' -o my-output.txt
+    
+    **** serve ****
+    for running as an HTTP server listening on the specified port (-p) and host (-h).
+    
+    jar -jar rumbledb-1.19.0.jar serve -p 9090
+    
+    RumbleDB also supports Apache Livy for use in Jupyter notebooks, which may be
+    even more convenient if you are using a cluster.
+    
+    **** repl ****
+    for shell mode.
+    
+    spark-submit rumbledb-1.19.0.jar repl
+    
+    
+    **** resource use configuration ****
+    
+    For a local use, you can control the number of cores, as well as allocated
+    memory, with:
+    
+    java -jar -Xmx10g rumbledb-1.19.0.jar repl
+    
+    More documentation on available CLI parameters is available on https://www.rumbledb.org/
+
+    
+    
