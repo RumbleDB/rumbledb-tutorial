@@ -18,7 +18,9 @@ For this tutorial, we will use the standalone Java jar, because this is the most
 
 First, you need to install Java. We will use Java 11.
 
-We recommend using the Adoptium distribution, which has an Apache 2.0 license. The Adoptium distribution can be installed from [this page](https://adoptium.net/en-GB/temurin/releases/?version=11). You need to download the version that corresponds to your operating system.
+### macOS
+
+On macOS, we recommend using the Adoptium distribution, which has an Apache 2.0 license. The Adoptium distribution can be installed from [this page](https://adoptium.net/en-GB/temurin/releases/?version=11). You need to download the version that corresponds to your operating system.
 
 Once you have finished the installation, you can check that the correct version of Java is running:
 
@@ -39,6 +41,22 @@ And then run
     java -version
     
 again to check that this worked.
+
+### Ubuntu
+
+In ubuntu, you can use the package manager like so:
+
+    sudo apt install openjdk-11-jdk
+    
+Then set JAVA_HOME with:
+
+    export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+    
+And then run
+
+    java -version
+    
+again to check that this worked (it should say 11, not 8 or 17).
 
 ## Download the RumbleDB jar
 
