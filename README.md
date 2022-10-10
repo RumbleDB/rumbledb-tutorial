@@ -1,4 +1,4 @@
-# RumbleDB tutorial
+# RumbleDB tutorial - Declarative Amsterdam 2022
 
 ## What is RumbleDB?
 
