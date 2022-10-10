@@ -20,7 +20,7 @@ First, you need to install Java. We will use Java 11.
 
 ### macOS
 
-On macOS, we recommend using the Adoptium distribution, which has an Apache 2.0 license. The Adoptium distribution can be installed from [this page](https://adoptium.net/en-GB/temurin/releases/?version=11). You need to download the .pkg version that corresponds to macOS.
+On macOS, we recommend using the Adoptium distribution, which has an Apache 2.0 license. The Adoptium distribution can be installed from [this page](https://adoptium.net/en-GB/temurin/releases/?version=11). You need to download the .pkg version that corresponds to macOS and your type of CPU. For this you can use the filtering dropdowns by selecting "macOS" as the operating system, either x64 (for Intel-based Macs) or aarch64 (for the newer M1 or M2 Macs) as the architecture, "JDK" as the package type, and "11" as the version.
 
 Once you have finished the installation, you can check that the correct version of Java is running:
 
@@ -60,7 +60,7 @@ again to check that this worked (it should say 11, not 8 or 17).
 
 ### Windows
 
-On Windows, we recommend using the Adoptium distribution, which has an Apache 2.0 license. The Adoptium distribution can be installed from [this page](https://adoptium.net/en-GB/temurin/releases/?version=11). You need to download the .msi file for Windows (x64).
+On Windows, we recommend using the Adoptium distribution, which has an Apache 2.0 license. The Adoptium distribution can be installed from [this page](https://adoptium.net/en-GB/temurin/releases/?version=11). You need to download the .msi file for Windows (x64). For this you can use the filtering dropdowns by selecting "Windows" as the operating system, x64 as the architecture (except if you have a very old laptop running in 32-bit mode), "JDK" as the package type, and "11" as the version.
 
 Simply run the installer and make sure to activate the setup of the PATH and JAVA_HOME directories
 
