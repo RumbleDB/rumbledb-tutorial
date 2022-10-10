@@ -20,7 +20,7 @@ First, you need to install Java. We will use Java 11.
 
 ### macOS
 
-On macOS, we recommend using the Adoptium distribution, which has an Apache 2.0 license. The Adoptium distribution can be installed from [this page](https://adoptium.net/en-GB/temurin/releases/?version=11). You need to download the version that corresponds to your operating system.
+On macOS, we recommend using the Adoptium distribution, which has an Apache 2.0 license. The Adoptium distribution can be installed from [this page](https://adoptium.net/en-GB/temurin/releases/?version=11). You need to download the .pkg version that corresponds to macOS.
 
 Once you have finished the installation, you can check that the correct version of Java is running:
 
@@ -57,6 +57,24 @@ And then run
     java -version
     
 again to check that this worked (it should say 11, not 8 or 17).
+
+### Windows
+
+On Windows, we recommend using the Adoptium distribution, which has an Apache 2.0 license. The Adoptium distribution can be installed from [this page](https://adoptium.net/en-GB/temurin/releases/?version=11). You need to download the .msi file for Windows (x64).
+
+Simply run the installer and make sure to activate the setup of the PATH and JAVA_HOME directories
+
+Once you have finished the installation, you can check that the correct version of Java is running by running in a command window:
+
+    java -version
+   
+which should display something like this (what is important is the 11, and not 8 or 17):
+
+    openjdk version "11.0.16.1" 2022-08-12
+    OpenJDK Runtime Environment Temurin-11.0.16.1+1 (build 11.0.16.1+1)
+    OpenJDK 64-Bit Server VM Temurin-11.0.16.1+1 (build 11.0.16.1+1, mixed mode)
+    
+again to check that this worked.
 
 ## Download the RumbleDB jar
 
