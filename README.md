@@ -46,6 +46,8 @@ The RumbleDB jar can directly be downloaded from [this place](https://github.com
 
 Just put it in a directory of your choice, specially created for the tutorial. In this directory, we will also put datasets and a jupyter notebook.
 
+## Checking that the RumbleDB jar gets correctly executed
+
 To check that it works, open a command window, go to the directory, and try to run the following command:
 
     java -jar rumbledb-1.19.0-standalone.jar
@@ -110,4 +112,26 @@ which should do nothing else than display get-started instructions:
     More documentation on available CLI parameters is available on https://www.rumbledb.org/
 
     
+## Run a hello-world query
+
+You can check that the 1+1 query works with:
+
+    java -jar rumbledb-1.19.0-standalone.jar run -q '1+1'
     
+This should return (possibly with some additional info or warning messages that you can safely ignore) 2, as expected.
+
+Next, you can check that the embedded Apache Spark works correctly with this query:
+
+    java -jar rumbledb-1.19.0-standalone.jar run -q 'for $i in parallelize(1 to 100, 10) return { "foo" : $i }'
+
+This should return a sequence of 100 objects, looking like this (also possibly with some additional info or warning messages that you can safely ignore):
+
+    { "foo" : 1 }
+    { "foo" : 2 }
+    { "foo" : 3 }
+    { "foo" : 4 }
+    { "foo" : 5 }
+    { "foo" : 6 }
+    { "foo" : 7 }
+    { "foo" : 8 }
+    ...
