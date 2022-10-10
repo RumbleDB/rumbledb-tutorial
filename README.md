@@ -23,7 +23,7 @@ RumbleDB can be installed in four different ways:
 
 For this tutorial, we will use the standalone Java jar, because this is the most straightforward way to get started.
 
-## Java
+## Installing Java
 
 First, you need to install Java. We will use Java 11.
 
@@ -85,13 +85,13 @@ which should display something like this (what is important is the 11, and not 8
     
 again to check that this worked.
 
-## Download the RumbleDB jar
+## Download the RumbleDB jar (all systems)
 
 The RumbleDB jar can directly be downloaded from [this place](https://github.com/RumbleDB/rumble/releases/download/v1.19.0/rumbledb-1.19.0-standalone.jar).
 
 Just put it in a directory of your choice, specially created for the tutorial. In this directory, we will also put datasets and a jupyter notebook.
 
-## Checking that the RumbleDB jar gets correctly executed
+## Checking that the RumbleDB jar gets correctly executed (all systems)
 
 To check that it works, open a command window, go to the directory, and try to run the following command:
 
@@ -157,7 +157,7 @@ which should do nothing else than display get-started instructions:
     More documentation on available CLI parameters is available on https://www.rumbledb.org/
 
     
-## Run a hello-world query
+## Run a hello-world query (all systems)
 
 You can check that the 1+1 query works with:
 
