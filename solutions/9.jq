@@ -1,1 +1,1 @@
-count(json-file("git-archive-big.json"))
+count(json-file("git-archive.json"))
