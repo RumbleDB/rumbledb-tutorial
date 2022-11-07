@@ -3,17 +3,17 @@
 ## Update: the links used in the slides
 
 
-[https://github.com/RumbleDB/rumble/releases](https://github.com/RumbleDB/rumble/releases)
+Release page with the jar: [https://github.com/RumbleDB/rumble/releases](https://github.com/RumbleDB/rumble/releases)
 
-[http://www.rumbledb.org/samples/1.jq](http://www.rumbledb.org/samples/1.jq)
+Pattern of pre-stored query solutions: [http://www.rumbledb.org/samples/1.jq](http://www.rumbledb.org/samples/1.jq)
 
-[https://www.rumbledb.org/samples/git-archive.json](https://www.rumbledb.org/samples/git-archive.json)
+Small dataset: [https://www.rumbledb.org/samples/git-archive.json](https://www.rumbledb.org/samples/git-archive.json)
 
-[https://www.rumbledb.org/samples/git-archive-big.json](https://www.rumbledb.org/samples/git-archive-big.json)
+Larger dataset: [https://www.rumbledb.org/samples/git-archive-big.json](https://www.rumbledb.org/samples/git-archive-big.json)
 
-[https://data.gharchive.org/2022-11-01-0.json.gz](https://data.gharchive.org/2022-11-01-0.json.gz)
+Huger dataset: [https://data.gharchive.org/2022-11-01-0.json.gz](https://data.gharchive.org/2022-11-01-0.json.gz)
 
-[https://lars.yencken.org/datasets/great-language-game/](https://lars.yencken.org/datasets/great-language-game/)
+Great language game: [https://lars.yencken.org/datasets/great-language-game/](https://lars.yencken.org/datasets/great-language-game/)
 
 ## What is RumbleDB?
 
