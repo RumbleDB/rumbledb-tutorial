@@ -2,11 +2,17 @@
 
 ## Update: the links used in the slides
 
+
 [https://github.com/RumbleDB/rumble/releases](https://github.com/RumbleDB/rumble/releases)
+
 [http://www.rumbledb.org/samples/1.jq](http://www.rumbledb.org/samples/1.jq)
+
 [https://www.rumbledb.org/samples/git-archive.json](https://www.rumbledb.org/samples/git-archive.json)
+
 [https://www.rumbledb.org/samples/git-archive-big.json](https://www.rumbledb.org/samples/git-archive-big.json)
+
 [https://data.gharchive.org/2022-11-01-0.json.gz](https://data.gharchive.org/2022-11-01-0.json.gz)
+
 [https://lars.yencken.org/datasets/great-language-game/](https://lars.yencken.org/datasets/great-language-game/)
 
 ## What is RumbleDB?
