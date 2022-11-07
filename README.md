@@ -11,7 +11,7 @@ Small dataset: [https://www.rumbledb.org/samples/git-archive.json](https://www.r
 
 Larger dataset: [https://www.rumbledb.org/samples/git-archive-big.json](https://www.rumbledb.org/samples/git-archive-big.json)
 
-Huger dataset: [https://data.gharchive.org/2022-11-01-0.json.gz](https://data.gharchive.org/2022-11-01-0.json.gz)
+Huger dataset URI pattern: [https://data.gharchive.org/2022-11-01-0.json.gz](https://data.gharchive.org/2022-11-01-0.json.gz)
 
 Great language game: [https://lars.yencken.org/datasets/great-language-game/](https://lars.yencken.org/datasets/great-language-game/)
 
